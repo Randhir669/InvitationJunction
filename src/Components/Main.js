@@ -78,7 +78,6 @@ export default function Main() {
             </dl>
           </div>
         </div>
-
       </div>
 
   <div className='bg-white lg:py-3  sm:py-20'>
@@ -134,8 +133,6 @@ export default function Main() {
   ))}
 </div>
 }
-
-
 
 <section id="comparison" aria-label="QuickEdit vs traditional editor" className="bg-slate-50 py-10 sm:py-16">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
