@@ -142,7 +142,7 @@ export default function Main() {
           We specialize in crafting stunning Digital Wedding Invitation cards and videos that make your special moments unforgettable. With innovation as our foundation and technology at our fingertips, we bring your unique story to life through mesmerizing personalized invitations. These can easily be shared via WhatsApp, Facebook, and Instagram.
         </p>
       </div>
-      <ul role="list" className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
+      <ul  className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
         {statisticsData.map((statistic,index) => (
            <li id= {statistic}>
            <figure className="relative rounded-2xl bg-white p-6 text-center shadow-xl shadow-slate-900/10">

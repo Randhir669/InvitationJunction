@@ -5,7 +5,6 @@ import Navbar from './Components/Navbar'
 import Main from './Components/Main'
 import Footer from './Components/Footer';
 import Banner from './Components/Banner';
-import Top from './Components/Top';
 function App() {
   return (
 
