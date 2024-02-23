@@ -4,23 +4,18 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'HOME', href: '/' },
-  { name: 'PDF', href: '#' },
-  { name: 'Videos', href: '/video' },
-  { name: 'About US', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'PDF', href: '/' },
+  { name: 'Videos', href: '/' },
+  { name: 'About US', href: '/' },
+  { name: 'Contact Us', href: '/' },
 ]
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  function openInstaGram(){
-    console.log("Inside")
-    window.open("https://www.instagram.com/e_invitation_junction/", "_blank");
-   }
-
    const handleScroll = (sectionId) => {
     const targetElement = document.getElementById(sectionId);
-console.log("handleScroll")
+      console.log("handleScroll")
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop,
@@ -55,7 +50,7 @@ console.log("handleScroll")
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name}  onClick = {()=>handleScroll('about')}className="sm:text-lg lg:text-2xl font-semibold leading-6 hover:text-red-600 active:text-red-600">
+              <a key={item.name} href={'/'} onClick = {()=>handleScroll('about')}className="sm:text-lg lg:text-2xl font-semibold leading-6 hover:text-red-600 active:text-red-600">
                 {item.name}
               </a>
             ))}
