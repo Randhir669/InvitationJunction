@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
-                  <img
+                  {/* <img
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
                     alt="logo"
                     className="max-w-full dark:hidden"
@@ -18,11 +18,10 @@ const Footer = () => {
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                     alt="logo"
                     className="max-w-full hidden dark:block"
-                  />
+                  /> */}
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                We specialize in crafting stunning digital wedding invitation cards and videos that make your special moments unforgettable.
                 </p>
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-primary">
@@ -54,37 +53,36 @@ const Footer = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>+012 (345) 678 99</span>
+                  <span>+918509332134</span>
                 </p>
               </div>
             </div>
 
-            <LinkGroup header="Resources">
-              <NavLink link="/#" label="SaaS Development" />
-              <NavLink link="/#" label="Our Products" />
-              <NavLink link="/#" label="User Flow" />
-              <NavLink link="/#" label="User Strategy" />
+            <LinkGroup header="QuickLinks">
+              <NavLink link="/#" label="Home" />
+              <NavLink link="/#" label="Invitation Cards" />
+              <NavLink link="/#" label="Wedding" />
+              <NavLink link="/#" label="Contact" />
             </LinkGroup>
-            <LinkGroup header="Company">
-              <NavLink link="/#" label="About TailGrids" />
-              <NavLink link="/#" label="Contact & Support" />
-              <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
-            </LinkGroup>
-            <LinkGroup header="Quick Links">
+
+            <LinkGroup header="Explore">
               <NavLink link="/#" label="Premium Support" />
               <NavLink link="/#" label="Our Services" />
               <NavLink link="/#" label="Know Our Team" />
               <NavLink link="/#" label="Download App" />
             </LinkGroup>
+            <LinkGroup header="">
+             
+            </LinkGroup>
+          
 
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
                   Follow Us On
                 </h4>
-                <div className="mb-6 flex items-center">
-                  <a
+                <div className="mb-6 flex items-center space-x-4">
+                  {/* <a
                     href="/"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
@@ -135,10 +133,26 @@ const Footer = () => {
                     >
                       <path d="M13.0214 0H1.02084C0.453707 0 0 0.451613 0 1.01613V12.9839C0 13.5258 0.453707 14 1.02084 14H12.976C13.5432 14 13.9969 13.5484 13.9969 12.9839V0.993548C14.0422 0.451613 13.5885 0 13.0214 0ZM4.15142 11.9H2.08705V5.23871H4.15142V11.9ZM3.10789 4.3129C2.42733 4.3129 1.90557 3.77097 1.90557 3.11613C1.90557 2.46129 2.45002 1.91935 3.10789 1.91935C3.76577 1.91935 4.31022 2.46129 4.31022 3.11613C4.31022 3.77097 3.81114 4.3129 3.10789 4.3129ZM11.9779 11.9H9.9135V8.67097C9.9135 7.90323 9.89082 6.8871 8.82461 6.8871C7.73571 6.8871 7.57691 7.74516 7.57691 8.60323V11.9H5.51254V5.23871H7.53154V6.16452H7.55423C7.84914 5.62258 8.50701 5.08065 9.52785 5.08065C11.6376 5.08065 12.0232 6.43548 12.0232 8.2871V11.9H11.9779Z" />
                     </svg>
-                  </a>
+                  </a> */}
+                     <a href="https://wa.me/918509332134?text=I%20Want%20to%20Buy%20Invitation%20Card%20From%20Your%20Website%20Kindly%20send%20me%20the%20Details?" target='_blank' rel="noreferrer"   className="text-black ">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='hover:animate-bounce' x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+                                <path d="M19.077,4.928C17.191,3.041,14.683,2.001,12.011,2c-5.506,0-9.987,4.479-9.989,9.985 c-0.001,1.76,0.459,3.478,1.333,4.992L2,22l5.233-1.237c1.459,0.796,3.101,1.215,4.773,1.216h0.004 c5.505,0,9.986-4.48,9.989-9.985C22.001,9.325,20.963,6.816,19.077,4.928z M16.898,15.554c-0.208,0.583-1.227,1.145-1.685,1.186 c-0.458,0.042-0.887,0.207-2.995-0.624c-2.537-1-4.139-3.601-4.263-3.767c-0.125-0.167-1.019-1.353-1.019-2.581 S7.581,7.936,7.81,7.687c0.229-0.25,0.499-0.312,0.666-0.312c0.166,0,0.333,0,0.478,0.006c0.178,0.007,0.375,0.016,0.562,0.431 c0.222,0.494,0.707,1.728,0.769,1.853s0.104,0.271,0.021,0.437s-0.125,0.27-0.249,0.416c-0.125,0.146-0.262,0.325-0.374,0.437 c-0.125,0.124-0.255,0.26-0.11,0.509c0.146,0.25,0.646,1.067,1.388,1.728c0.954,0.85,1.757,1.113,2.007,1.239 c0.25,0.125,0.395,0.104,0.541-0.063c0.146-0.166,0.624-0.728,0.79-0.978s0.333-0.208,0.562-0.125s1.456,0.687,1.705,0.812 c0.25,0.125,0.416,0.187,0.478,0.291C17.106,14.471,17.106,14.971,16.898,15.554z"></path>
+                            </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/e_invitation_junction/" target='_blank' rel="noreferrer" className="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" className='hover:animate-bounce' y="0px" width="30" height="30" viewBox="0 0 50 50">
+                                <path d="M16 3C8.83 3 3 8.83 3 16L3 34C3 41.17 8.83 47 16 47L34 47C41.17 47 47 41.17 47 34L47 16C47 8.83 41.17 3 34 3L16 3zM37 11C38.1 11 39 11.9 39 13C39 14.1 38.1 15 37 15C35.9 15 35 14.1 35 13C35 11.9 35.9 11 37 11zM25 14C31.07 14 36 18.93 36 25C36 31.07 31.07 36 25 36C18.93 36 14 31.07 14 25C14 18.93 18.93 14 25 14zM25 16C20.04 16 16 20.04 16 25C16 29.96 20.04 34 25 34C29.96 34 34 29.96 34 25C34 20.04 29.96 16 25 16z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/people/E-Invitation-Junction/61555643048545/?mibextid=ZbWKwL" target='_blank' rel="noreferrer" className="text-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" className='hover:animate-bounce' x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                                <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+                            </svg>
+                        </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 TailGrids
+                  &copy; 2025 Invitation_Junction
                 </p>
               </div>
             </div>
