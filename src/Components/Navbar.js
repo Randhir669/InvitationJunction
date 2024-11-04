@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import s1 from '../Images/logo1.jpeg';
 
 const navigation = [
   { name: 'HOME', href: '/' },
@@ -10,6 +11,7 @@ const navigation = [
   { name: 'Contact Us', href: '/' },
 ]
 
+const src1 = s1;
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -32,8 +34,8 @@ export default function Navbar() {
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-16 w-auto"
-                src="https://invitationwala.com/wp-content/uploads/2023/11/invitation-vala-final1-300x70.png.webp"
+                className="w-auto max-w-60"
+                src={src1}
                 alt=""
               />
             </a>

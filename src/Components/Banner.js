@@ -17,7 +17,7 @@ export default function Banner() {
                             <span className="ml-2 font-bold">+918509332134</span>
                         </div>
                     </div>
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 hidden lg:flex">
                         <div className="flex items-center">
                             <span className="ml-2 font-bold">New and Fresh Designs Available </span>
                         </div>

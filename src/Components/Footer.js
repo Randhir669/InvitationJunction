@@ -1,5 +1,7 @@
 import React from "react";
+import s1 from '../Images/logo_bg_pink.png';
 
+const src1 = s1;
 const Footer = () => {
   return (
     <>
@@ -7,18 +9,19 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
-              <div className="mb-10 w-full">
+              <div className="mb-10">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
-                  {/* <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                   <img
+                    src={src1}
                     alt="logo"
-                    className="max-w-full dark:hidden"
+                    className="max-w-60 dark:hidden"
+                  
                   />
-                  <img
+                  {/* <img
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                     alt="logo"
                     className="max-w-full hidden dark:block"
-                  /> */}
+                  />  */}
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
                 We specialize in crafting stunning digital wedding invitation cards and videos that make your special moments unforgettable.
@@ -152,7 +155,7 @@ const Footer = () => {
                         </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 Invitation_Junction
+                  &copy; 2025 Invitation Junction | Design With ❤️ in India
                 </p>
               </div>
             </div>
